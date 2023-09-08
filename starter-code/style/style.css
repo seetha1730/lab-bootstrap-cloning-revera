@@ -69,3 +69,54 @@ section.course-data {
     margin: 0px auto;
     font-size: 20px;
 }
+.card {
+    border: 0;
+}
+p.card-text {
+    text-align: center;
+}
+
+p.posted-on span {
+    color: #ed564b;
+    padding: 0 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.card-body {
+    padding: 10px 0;
+}
+.card-text h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+img.card-img-top {
+    height: 175px;
+}
+section.footer {
+    background: #3b3b3b;
+    color: grey;
+    padding: 40px 0;
+}
+.footer ul {
+    padding: 0;
+}
+
+.footer ul li {
+    list-style: none;
+    border-bottom: 1px dotted;
+    padding: 10px 0;
+}
+.copyright{background-color: #292929;color:#fff;padding:20px 0}
+.copyright p{margin: 0;}
+.orange-border {
+    margin: 0;
+    border: 3px solid #ed564b;
+    opacity: 1;
+}
+@media (min-width: 576px) and (max-width: 767px){
+img.card-img-top{height:auto}
+}
+
+@media (min-width: 320px) and (max-width: 575px){
+    img.card-img-top{height:auto}
+    }
